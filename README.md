@@ -1,6 +1,7 @@
 This is demo applicaion for producer consumer using Apache Kafka.
 
 Steps to run app:
+
 1)Download docker-compose file and put in a seperate folder. open cmd there. Run "docker-compose up -d" command. It will start zookeeper and kafka broker.
 (ignore this step if already have kafka running locally)
 
