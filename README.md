@@ -8,7 +8,9 @@ Steps to run app:
 2)Run springboot app.
 
 3)You can create kafka msg using API "/v1/producer/sendMessage"
+
 or using broker can create msg
+
 kafka-console-producer --bootstrap-server localhost:9092 --topic demo.topic.name
 
 4)kafka consumer wil consume it.
