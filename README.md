@@ -9,6 +9,8 @@ Steps to run app:
 
 3)You can create kafka msg using API "/v1/producer/sendMessage"
 
+example : GET API localhost:8080/v1/producer/sendMessage?message=test
+
 or using broker can create msg
 
 kafka-console-producer --bootstrap-server localhost:9092 --topic demo.topic.name
